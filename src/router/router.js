@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
 const router = express.Router();
-const example = require('./example');
+const template = require('./template');
 
-router.use('/example', example);
+router.use('/export', template);
 
 module.exports = router;

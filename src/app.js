@@ -12,5 +12,5 @@ app.use(express.json());
 app.use('/server', router);
 
 app.listen(port, () => {
-    console.log(`Listening on port ${port}`);
+    console.log(`Listening on port ${port}. Access here: http://localhost:${port}`);
 })

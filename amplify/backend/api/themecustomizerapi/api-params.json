@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/items",
+      "lambdaFunction": "themecustomizercd94fe12",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/items"
+    }
+  ],
+  "resourceName": "themecustomizerapi",
+  "apiName": "themecustomizerapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "themecustomizercd94fe12"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-amplify91dbffa2c8a04-staging-235441-authRole",
+    "unAuthRoleName": "amplify-amplify91dbffa2c8a04-staging-235441-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "themecustomizercd94fe12",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}
